@@ -7,7 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todo_done{
+  background-color: rgb(88, 202, 88);
+  color: rgb(19, 49, 19);
+}
+
+.todo_pending{
+  background-color: rgb(207, 207, 207);
+  color: rgb(41, 38, 38);
+}
+
+.list{
+  border: 1px solid rgb(161, 161, 161);
+  margin-bottom: 10px;
 }
